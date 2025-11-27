@@ -1,2 +1,2 @@
 # fertility-trends
-MIT Emerging Talent Capstone Project: Global analysis of fertility treatments (IVF) with focus on accessibility, costs, and outcomes
+MIT Emerging Talent Capstone Project: Trends in IVF treatment in the United States (2020–2022)
