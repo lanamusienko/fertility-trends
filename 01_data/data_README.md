@@ -5,7 +5,7 @@ This directory contains all raw and cleaned datasets used in the project
 
 Data comes from the  
 📌 **CDC National ART Surveillance System (NASS)** for years **2020–2022**  
-🔗 [CDC ART 2020–2022 datasets](https://data.cdc.gov/browse?q=2020%20Final%20Assisted%20Reproductive%20Technology%20(ART)%20Patient%20and%20Cycle%20Characteristics&sortBy=relevance&pageSize=20&page=1)
+🔗 <https://data.cdc.gov/browse?q=2020%20Final%20Assisted%20Reproductive%20Technology%20(ART)%20Patient%20and%20Cycle%20Characteristics&sortBy=relevance&pageSize=20&page=1>
 
 The folder is organized into:
 
@@ -53,9 +53,3 @@ These files were processed to:
 - [services_clean.csv](clean/services_clean.csv) — cleaned services & clinic profiles  
 - [summary_clean.csv](clean/summary_clean.csv) — cleaned summary indicators used for analysis  
 - [summary_raw_2020_2022.csv](clean/summary_raw_2020_2022.csv) — combined raw subset for metric building  
-
-## 📝 **Usage Notes**
-
-- Analysis notebooks in `02_analysis_visuals/` load data exclusively from `clean/`.  
-- Raw files remain unchanged to ensure traceability and reproducibility.  
-- Cleaned files serve as the foundation for visualizations, statistical analysis, and machine learning models.  
