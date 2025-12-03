@@ -57,37 +57,6 @@ All data comes from the **CDC National ART Surveillance System (NASS)**.
 - 📂 Raw files: `01_data/raw/`  
 - 📂 Cleaned files: `01_data/clean/`  
 
-## 🗂️ Repository Structure
-
-```text
-fertility-trends/
-│
-├── 01_data/
-│   ├── raw/                     # Original CDC CSV files (2020–2022)
-│   └── clean/                   # Cleaned datasets:
-│       ├── patient_clean.csv
-│       ├── services_clean.csv
-│       ├── summary_clean.csv
-│       └── summary_raw_2020_2022.csv
-│
-├── 02_analysis_visuals/
-│   ├── 01_load_and_explore.ipynb
-│   ├── 02_clean_data.ipynb
-│   ├── 03_clean_patient.ipynb
-│   ├── 04_clean_services.ipynb
-│   ├── 05_analysis_visuals.ipynb
-│   ├── 06_ml_live_birth_model.ipynb
-│   └── 07_correlation_analysis.ipynb
-│
-├── 03_results_presentation/
-│   ├── charts/
-│   ├── presentation_slides/
-│   └── summary_report.md
-│
-├── 04_reflection/
-│   └── retrospective.md
-│
-└── README.md
 ## 🧰 Methods Overview
 
 ### 🧹 Data Cleaning
@@ -103,7 +72,7 @@ Cleaning steps included:
 - Merging multi-year datasets into a unified structure  
 - Creating derived features such as clinic volume and success indicators  
 
-### 📊 Exploratory Data Analysis (EDA)
+### 📊 Exploratory Data Analysis
 
 Exploratory analysis focused on identifying major trends in IVF access, clinic performance, and success outcomes.  
 Key analytical components:
