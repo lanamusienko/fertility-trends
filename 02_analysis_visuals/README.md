@@ -1,108 +1,35 @@
 # 📊 Analysis & Visualizations
 
-This folder contains files used for **data cleaning**,  
-**exploratory analysis**, **visualization**, and **machine learning modeling** for the project  
-**“Analysis of IVF Trends in the United States (2020–2022)”**.
-
-Files are organized in the exact sequence of the analytical workflow,  
-from loading the data to building predictive models.
+This folder contains the Jupyter notebooks used for data cleaning, exploratory analysis, visualization, and machine learning modeling for the project **“Analysis of IVF Trends in the United States (2020–2022)”**. The files are organized to reflect the natural workflow: loading raw data, cleaning and preparing datasets, exploring patterns, building models, and analyzing correlations.
 
 ---
 
-## 📁 Folder Contents
+## Files contents
 
-## 1️⃣ **01_load_and_explore.ipynb**
+**01_load_and_explore.ipynb**  
+This file loads the raw CDC ART CSV files from the `01_data/raw/` folder and performs an initial inspection of their structure. It previews the data frames, checks column names and types, and verifies that all required files for the years 2020–2022 are present. The goal is to understand what information is available before any cleaning or transformation.
 
-**Purpose:**  
-- Load raw CDC datasets  
-- Inspect structure, columns, datatypes  
-- Verify file completeness  
-- Initial exploration before cleaning  
+**02_clean_data.ipynb**  
+This file focuses on cleaning and preparing the summary data. It standardizes column names, converts numeric fields that contain commas or symbols, removes non-analytic text and footnote markers, and combines the multi-year summary files into a single dataset. The cleaned outputs are saved as `summary_clean.csv` and `summary_raw_2020_2022.csv` in `01_data/clean/` and form the core dataset for later analysis.
 
-**Key Outputs:**  
-- List of raw files loaded  
-- Preview of data frames  
-- Basic understanding of available metrics  
+**03_clean_patient.ipynb**  
+This file processes the “Patient & Cycle Characteristics” data. It cleans numeric columns, aligns year information, and keeps only the variables that are relevant for understanding patient age groups and cycle characteristics. The result is a tidy version of patient-level characteristics saved as `patient_clean.csv`, which can be linked conceptually to the summary dataset.
 
-## 2️⃣ **02_clean_data.ipynb**
-**Purpose:**  
-- Clean and standardize **Summary** data (main dataset)  
-- Fix column names  
-- Convert numeric fields  
-- Remove footnotes, symbols, and text artifacts  
-- Combine multi-year summary datasets  
+**04_clean_services.ipynb**  
+This file cleans the “Services & Profiles” dataset, which describes clinic services and structural characteristics. It standardizes service indicators, harmonizes text categories, and prepares clinic-level features that can be used to understand how service offerings relate to volume and outcomes. The cleaned services data is saved as `services_clean.csv`.
 
-**Key Outputs:**  
-- `summary_clean.csv`  
-- `summary_raw_2020_2022.csv`
+**05_analysis_visuals.ipynb**  
+This file contains the main exploratory data analysis and visualizations. It examines IVF cycle volumes over time, shows how clinics are distributed across U.S. states, and explores success rates by age group. It also produces key figures such as line charts for success trends and the U.S. map of IVF clinics. Many of the plots used in the final presentation come from this notebook.
 
-## 3️⃣ **03_clean_patient.ipynb**
-**Purpose:**  
-- Clean **Patient & Cycle Characteristics** data  
-- Standardize numeric columns  
-- Fix date/year formats  
-- Select analytically relevant fields  
+**06_ml_live_birth_model.ipynb**  
+This file builds machine learning models to predict high IVF success at the clinic-year level. It constructs a feature set from the cleaned data, creates a binary target for “above-average” live-birth success, and trains both a Logistic Regression model and a Decision Tree classifier. It evaluates performance on a test set and examines feature importance, with a particular focus on age group, clinic volume, and state.
 
-**Key Outputs:**  
-- `patient_clean.csv`  
-
-## 4️⃣ **04_clean_services.ipynb**
-**Purpose:**  
-- Process **Clinic Services & Profiles** dataset  
-- Clean and standardize service categories  
-- Extract clinic-level features  
-
-**Key Outputs:**  
-- `services_clean.csv`  
-
-## 5️⃣ **05_analysis_visuals.ipynb**
-**Purpose:**  
-Full exploratory data analysis (EDA), including:
-
-- IVF cycle volume by year  
-- Clinic count by state  
-- U.S. state choropleth map of clinic distribution  
-- Success rates by age group  
-- Multi-year trend visualization  
-- Interpretation of key metrics  
-
-**Key Outputs:**  
-- All charts for the Results & Presentation section  
-
-## 6️⃣ **06_ml_live_birth_model.ipynb**
-**Purpose:**  
-Machine learning modeling to predict high IVF success.
-
-Methods used:
-- Logistic Regression  
-- Decision Tree Classifier  
-
-Tasks performed:
-- Feature engineering  
-- Train-test split  
-- Model training & evaluation  
-- Feature importance analysis  
-
-**Key Outputs:**  
-- Model performance metrics  
-- Feature importance plots  
-
-## 7️⃣ **07_correlation_analysis.ipynb**
-**Purpose:**  
-- Compute correlations across all success indicators  
-- Clean metric fields for numeric correlation  
-- Generate correlation heatmap  
-- Identify relationships among IVF performance metrics  
-
-**Key Outputs:**  
-- Correlation heatmap  
-- Ranked correlation insights for presentation  
+**07_correlation_analysis.ipynb**  
+This file restructures the data into a wide format so that multiple IVF indicators can be analyzed together. It carefully converts all metric columns to numeric format, computes a correlation matrix, and visualizes it as a heatmap. This helps reveal how key success metrics, discontinuation rates, and cycle counts are related to each other across clinics and years.
 
 ---
 
-## 🔗 Files Links
-
-If viewing this file on GitHub, use these direct links:
+## Files Links
 
 - [01_load_and_explore.ipynb](01_load_and_explore.ipynb)  
 - [02_clean_data.ipynb](02_clean_data.ipynb)  
