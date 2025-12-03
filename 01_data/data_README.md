@@ -5,7 +5,7 @@ This directory contains all raw and cleaned datasets used in the project
 
 Data comes from the  
 📌 **CDC National ART Surveillance System (NASS)** for years **2020–2022**  
-🔗 [CDC ART 2020–2022 datasets](https://data.cdc.gov/browse?q=2020+Final+Assisted+Reproductive+Technology+%28ART%29+Patient+and+Cycle+Characteristics&sortBy=relevance&pageSize=20&page=1)
+🔗 [CDC ART 2020–2022 datasets](https://data.cdc.gov/browse?q=2020%20Final%20Assisted%20Reproductive%20Technology%20(ART)%20Patient%20and%20Cycle%20Characteristics&sortBy=relevance&pageSize=20&page=1)
 
 The folder is organized into:
 
