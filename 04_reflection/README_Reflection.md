@@ -1,11 +1,12 @@
-# 🌿 Final Reflection / Capstone Retrospective  
+# 🌿 Final Retrospective  
+*ELO 2*
 *MIT Emerging Talent – Data Science Program*  
 *Project: Analysis of IVF Trends in the United States (2020–2022)*  
 
 ## 🔹 Introduction
 This capstone project represents both a technical milestone and a personal journey. I chose to analyze IVF trends in the United States because infertility is a topic that deeply affects many people-including myself. After more than a decade of struggling with infertility and undergoing multiple IVF cycles before welcoming my first child, I understand how confusing, overwhelming, and emotionally heavy this process can be. Data often feels inaccessible or difficult to interpret for the average patient, especially at a time when clear information is most needed.
 
-For this reason, transforming raw CDC data into meaningful insights became not just an academic exercise, but a way to elevate an important public health topic. This project allowed me to apply the full spectrum of skills I gained in the MIT Emerging Talent Data Science program—data cleaning, statistical reasoning, machine learning, visualization, and storytelling—toward something that matters both personally and socially.
+For this reason, transforming raw CDC data into meaningful insights became not just an academic exercise, but a way to elevate an important public health topic. This project allowed me to apply the full spectrum of skills I gained in the MIT Emerging Talent Data Science program—data cleaning, statistical reasoning, machine learning, visualization, and storytelling - toward something that matters both personally and socially.
 
 ## 🔹 Were the Original Project Objectives Achieved?
 
@@ -22,10 +23,12 @@ Within the U.S. scope, I successfully met the objectives of the project. I clean
 - correlations between key IVF metrics  
 - predictors of high IVF success using machine learning  
 
-I also built two ML models—**Logistic Regression** and a **Decision Tree Classifier**—to evaluate which factors most strongly influence success probability.
+I also built two ML models - Logistic Regression and Decision Tree Classifier - to evaluate which factors most strongly influence success probability.
 
 Beyond the analytical tasks, I achieved my personal learning goals:  
-Working with complex, messy real-world health data; applying statistical and exploratory techniques; implementing ML models; and communicating results clearly through visuals and storytelling.
+- working with complex, messy real-world health data;
+- applying statistical and exploratory techniques;
+- implementing ML models; and communicating results clearly through visuals and storytelling.
 
 ## 🔹 Most Valuable Learning From the Project
 The most valuable learning experience was understanding the complexity and imperfection of real-world data. Unlike structured coursework datasets, the CDC IVF tables contained inconsistencies, duplicate fields, non-standard numeric formats, ambiguous labels, and overlapping indicators. Cleaning and structuring this data required patience, careful reasoning, and step-by-step debugging.
@@ -39,22 +42,20 @@ This process deepened my understanding of:
 
 Additionally, creating meaningful visualizations—choropleth maps, line charts, correlation heatmaps, ML feature importance plots—strengthened my skills in data storytelling and helped me communicate insights in a way that is accessible to non-technical audiences.
 
----
-
 ## 🔹 If This Were a Team Project: What Would I Delegate?
-Since this was an individual project, I carried out every step myself—from data cleaning to analysis, modeling, and visualization. Through this project, I realized how much I enjoy leading the analytical direction and ensuring that insights are clear, ethical, and meaningful.
+Since this was an individual project, I carried out every step myself from data cleaning to analysis, modeling, and visualization. Through this project, I realized how much I enjoy leading the analytical direction and ensuring that insights are clear, ethical, and meaningful.
 
 ## 🔹 Navigating the Project Management Process
 Managing this project required balancing multiple components:
 
-- understanding complex domain data  
-- cleaning and merging large files  
-- creating a structured repository  
-- maintaining consistent naming conventions  
-- version-controlling large datasets using Git LFS  
-- building multiple analysis notebooks  
-- exporting visualizations  
-- preparing a polished presentation  
+- understanding complex domain data;  
+- cleaning and merging large files;  
+- creating a structured repository;
+- maintaining consistent naming conventions;  
+- version-controlling large datasets using Git LFS;  
+- building multiple analysis notebooks;  
+- exporting visualizations;  
+- preparing a polished presentation.  
 
 I used a structured workflow that included:
 
@@ -70,7 +71,7 @@ One of the most helpful lessons was learning how to refactor and reorganize the 
 ## 🔹 Choosing the Public-Facing Artifact
 I chose to create:
 
-- a GitHub repository with all code, notebooks, and results  
+- a GitHub repository with all code, notebooks and results  
 - a visual PDF presentation for MIT submission  
 
 ## 🔹 Most Useful Elements of the Emerging Talent Program
@@ -79,14 +80,14 @@ When I started the MIT Emerging Talent program, I had no prior experience with P
 
 Several elements of the program were essential in helping me build the skills required for this capstone:
 
-- **Foundations & Python Programming:** gave me the core skills to clean, transform, and analyze real datasets.  
-- **Data Wrangling & Preprocessing:** taught me how to work with messy, inconsistent clinical data and prepare it for analysis.  
-- **Workshops:** helped me design clear, interpretable charts and communicate insights effectively.  
-- **AI Learning Modules:** introduced me to classification models, feature importance, model evaluation, and interpretation.  
-- **Probability & Statistical Reasoning:** guided my understanding of IVF indicators, correlations, and meaningful comparisons.  
-- **Project Organization Workshops:** enabled me to structure a multi-step workflow in a professional, reproducible way.  
+**Foundations & Python Programming:** gave me the core skills to clean, transform, and analyze real datasets.  
+**Data Wrangling & Preprocessing:** taught me how to work with messy, inconsistent clinical data and prepare it for analysis.  
+**Workshops:** helped me design clear, interpretable charts and communicate insights effectively.  
+**AI Learning Modules:** introduced me to classification models, feature importance, model evaluation, and interpretation.  
+**Probability & Statistical Reasoning:** guided my understanding of IVF indicators, correlations, and meaningful comparisons.  
+**Project Organization Workshops:** enabled me to structure a multi-step workflow in a professional, reproducible way.  
 
-Altogether, these components not only gave me the technical skills but also the confidence to take on a complex, open-ended project on my own—something that would have felt impossible when I first entered the program.
+Altogether, these components not only gave me the technical skills but also the confidence to take on a complex, open-ended project on my own, something that would have felt impossible when I first entered the program.
 
 ## 🔹 Final Thoughts
 This project was more than a technical exercise—it was an opportunity to connect data science with a deeply personal experience. IVF is a journey filled with uncertainty, emotional highs and lows, and difficult decisions. By transforming complex clinical datasets into clear and actionable insights, I hope to help others make more informed choices and better understand the landscape of reproductive medicine.

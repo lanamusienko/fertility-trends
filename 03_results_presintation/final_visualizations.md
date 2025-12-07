@@ -1,7 +1,6 @@
 # 📊 Final Visualizations
 
-This page presents all final charts used in the analysis and presentation of the project **“Analysis of IVF Trends in the United States (2020–2022)”**.  
-Each visualization includes a short caption explaining its purpose and insights.
+This page presents all final charts used in the analysis and presentation of the project **“Analysis of IVF Trends in the United States (2020–2022)”**. Each visualization includes a short caption explaining its purpose and insights.
 
 ## 🗺️ 1. IVF Clinic Distribution Across the United States
 

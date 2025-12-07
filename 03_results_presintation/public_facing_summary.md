@@ -34,7 +34,7 @@ Can we estimate whether a clinic is likely to achieve above-average success?
 Success rates decline sharply after **age 37**, aligning with medical research.
 
 ### ⭐ Clinic volume matters  
-High-volume clinics tend to achieve significantly better outcomes — potentially due to experience, resources, or patient selection.
+High-volume clinics tend to achieve significantly better outcomes - potentially due to experience, resources, or patient selection.
 
 ### ⭐ U.S. state differences are substantial  
 Some states show consistently better outcomes, possibly influenced by insurance coverage and local policies.
@@ -54,7 +54,7 @@ Together, these models provided both statistical precision and interpretability,
 
 ## 🎨 Visual Storytelling
 
-A central part of this project involved transforming complex data into clear and accessible visual narratives. The visualizations span national maps, trend curves, and model-based interpretations—each designed to highlight a different dimension of IVF care in the United States.  
+A central part of this project involved transforming complex data into clear and accessible visual narratives. The visualizations span national maps, trend curves, and model-based interpretations, each designed to highlight a different dimension of IVF care in the United States.  
 
 A **choropleth map** illustrates how unevenly IVF clinics are distributed across states, while **age-based success rate curves** reveal the sharp decline in outcomes beginning in the late thirties. Additional visuals—such as **feature importance charts**, a **correlation heatmap**, and **cycle volume trend lines** - clarify relationships among key indicators and show which variables matter most for prediction.  
 
@@ -65,7 +65,7 @@ https://data.cdc.gov/browse?q=Assisted+Reproductive+Technology
 
 ## 📘 About the Author
 
-**Svitlana Musienko**  
-Learners od Cohort 6 of MIT Emerging Talent Data Science
+**Svitlana Musiienko**  
+Learner of Cohort 6 at MIT Emerging Talent Program for Data Science
 GitHub: https://github.com/lanamusienko  
 Project Repo: https://github.com/lanamusienko/fertility-trends

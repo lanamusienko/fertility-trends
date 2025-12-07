@@ -1,8 +1,6 @@
 # 📊 Analysis & Visualizations
 
-This folder contains the Jupyter notebooks used for data cleaning, exploratory analysis, visualization, and machine learning modeling for the project **“Analysis of IVF Trends in the United States (2020–2022)”**. The files are organized to reflect the natural workflow: loading raw data, cleaning and preparing datasets, exploring patterns, building models, and analyzing correlations.
-
----
+This folder contains the files used for data cleaning, exploratory analysis, visualization, and machine learning modeling for the project **“Analysis of IVF Trends in the United States (2020–2022)”**. The files are organized to reflect the natural workflow: loading raw data, cleaning and preparing datasets, exploring patterns, building models, and analyzing correlations.
 
 ## 🔎 Files Overview
 

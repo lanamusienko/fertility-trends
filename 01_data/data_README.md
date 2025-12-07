@@ -1,11 +1,10 @@
 # 📂 **Data Folder — Overview**
 
-This directory contains all raw and cleaned datasets used in the project  
-**“Analysis of IVF Trends in the United States (2020–2022)”** for the MIT Emerging Talent Program.
+This directory contains all raw and cleaned datasets used in the projectc**“Analysis of IVF Trends in the United States (2020–2022)”** for the ELO 2 at MIT Emerging Talent Program.
 
 Data comes from the  
 📌 **CDC National ART Surveillance System (NASS)** for years **2020–2022**  
-🔗 <https://data.cdc.gov/browse?q=2020%20Final%20Assisted%20Reproductive%20Technology%20(ART)%20Patient%20and%20Cycle%20Characteristics&sortBy=relevance&pageSize=20&page=1>
+🔗 https://data.cdc.gov/browse?q=Assisted+Reproductive+Technology
 
 The folder is organized into:
 
@@ -41,15 +40,15 @@ They are not modified in any way and serve as the source of truth for the projec
 
 These files were processed to:
 
-- Standardize column names  
-- Convert numerical fields  
-- Extract meaningful IVF success metrics  
-- Combine multi-year data  
-- Remove unusable or incomplete records  
+- standardize column names;  
+- convert numerical fields;  
+- extract meaningful IVF success metrics;  
+- combine multi-year data;
+- remove unusable or incomplete records.
 
 ### 📂 Clean Data Contents  
 
-- [patient_clean.csv](clean/patient_clean.csv) — standardized patient & cycle characteristics  
-- [services_clean.csv](clean/services_clean.csv) — cleaned services & clinic profiles  
-- [summary_clean.csv](clean/summary_clean.csv) — cleaned summary indicators used for analysis  
-- [summary_raw_2020_2022.csv](clean/summary_raw_2020_2022.csv) — combined raw subset for metric building  
+- [patient_clean.csv](clean/patient_clean.csv) - standardized patient and cycle characteristics  
+- [services_clean.csv](clean/services_clean.csv) - cleaned services and clinic profiles  
+- [summary_clean.csv](clean/summary_clean.csv) - cleaned summary indicators used for analysis  
+- [summary_raw_2020_2022.csv](clean/summary_raw_2020_2022.csv) - combined raw subset for metric building  
