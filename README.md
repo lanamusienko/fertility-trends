@@ -1,6 +1,6 @@
 # 📊👣 Analysis of IVF Trends in the United States (2020–2022) 🗽
 
-### *A Data Science Capstone Project — MIT Emerging Talent Program*
+### *A Data Science Capstone Project - MIT Emerging Talent Program*
 
 ## ✨ Why This Project Matters
 
@@ -8,8 +8,7 @@ Infertility touches millions of lives - 1 in 6 couples worldwide, according to t
 Behind every statistic is a very real emotional journey filled with uncertainty, hope, and courage.
 
 For me, this topic is deeply personal.  
-I spent over 10 years trying to become pregnant, went through multiple IVF cycles,  
-and finally welcomed my first child after a long, difficult process.  
+I spent over 10 years trying to become pregnant, went through multiple IVF cycles, and finally welcomed my first child after a long, difficult process.  
 Because of that experience, I understand how *confusing*, *overwhelming*, and *technically complex* IVF data and clinic outcomes can be for patients making life-changing decisions.
 
 This project is not just an academic exercise - it is a way to:
